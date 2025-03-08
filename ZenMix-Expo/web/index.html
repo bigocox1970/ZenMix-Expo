@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>ZenMix</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #121212;
+      }
+
+      #root {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #121212;
+      }
+
+      #root > div {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #000;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+
+      @media (min-width: 769px) {
+        #root > div {
+          margin: 0 auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html> 
