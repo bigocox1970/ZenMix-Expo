@@ -1,0 +1,9 @@
+[build]
+  # Skip build command since we're deploying pre-built files
+  command = "echo 'Skipping build step...'"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
